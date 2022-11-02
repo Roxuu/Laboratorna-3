@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Стиль заголовка */
+  header {
+    background-color: rgb(198, 192, 192);
+    padding: 15px;
+    font-size: 35px;
+    color: white;
+  
+  }
+  
+  /* Контейнер для флексбоксів */
+  section {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  /* Стиль меню навігації */
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+  }
+  
+  /* Стиль списку в меню */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Стиль контенту */
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+  }
+  
+  /* Стиль розділу footer */
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Адаптивний макет - меню і зміст (всередині розділу) розташовуються один над одним, а не поруч один з одним. */
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+    
+  }
+  button{
+background-color:rgb(65, 196, 232)  ;
+text-align: center;
+width: 155px;
+height: 80px;
+border-color: black; 
+border: 2px;
+
+  }

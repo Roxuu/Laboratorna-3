@@ -1,0 +1,36 @@
+
+#fixed_table{
+    width: 950px;
+    height: 900px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 600;
+    text-shadow: 0.5px 0.5px 1px black;
+    color: #444;;
+    
+  }
+
+  #fixed_table .header,
+  #fixed_table .footer{
+    background: blue;
+    height: 100px;
+  }
+
+  #fixed_table .left-col
+  {
+    background: gold;
+  }
+
+  #fixed_table .left-col{
+    width: 120px;
+  }
+
+  #fixed_table .cell1{
+    height: 100px;
+    background: blue;
+  }
+
+  #fixed_table .cell2{
+    background: white;
+  }
