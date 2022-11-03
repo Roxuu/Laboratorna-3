@@ -12,6 +12,9 @@
     padding: 15px;
     font-size: 35px;
     color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
   
   }
   
@@ -46,7 +49,7 @@
     background-color: #f1f1f1;
     padding: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
   }
   
@@ -59,19 +62,38 @@
   }
   
   /* Адаптивний макет - меню і зміст (всередині розділу) розташовуються один над одним, а не поруч один з одним. */
-  @media (max-width: 600px) {
-    section {
-      -webkit-flex-direction: column;
-      flex-direction: column;
-    }
-    
-  }
-  button{
+  
+  
+  
+  #btn{
+
 background-color:rgb(65, 196, 232)  ;
 text-align: center;
 width: 155px;
-height: 80px;
+height: 60px;
 border-color: black; 
 border: 2px;
+margin: 50px;
+line-height: 60px;
+font-size: 20px;
 
   }
+  #image-div{
+    width: 300px;
+    height: 500px;
+
+
+    
+  }
+  #sp{
+
+    background-color:rgb(255, 255, 255)  ;
+    text-align: center;
+    width: 35px;
+    height: 60px;
+     
+    
+    margin: 50px;
+    line-height: 60px;
+    font-size: 20px;
+      }
